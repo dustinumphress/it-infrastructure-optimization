@@ -38,6 +38,22 @@ Our 8-person medical billing company was facing:
 - **Cost**: ~$0.18/month for 182GB
 - **Benefit**: Region-redundant backup, HIPAA-compliant encryption
 
+```mermaid
+graph TD
+    subgraph Legacy
+        A[Dropbox Business]
+        B[Legacy Web Host]
+    end
+    subgraph AWS_Cloud
+        C[SharePoint & S3]
+        D[AWS Lightsail]
+        E[Cloudflare CDN]
+    end
+    A -->|Migrated Files| C
+    B -->|Migrated Site| D
+    E -->|Protects| D
+```
+
 ## 🛠️ Technical Implementation
 
 ### AWS S3 Deep Archive Setup
