@@ -1,12 +1,12 @@
 # IT Infrastructure Cost Optimization: 94% Reduction
 
-A comprehensive migration project that reduced annual IT costs from $1,463 to $86 while improving security, compliance, and performance.
+A comprehensive migration project that reduced annual IT costs from $1,460 to $84 while improving security, compliance, and performance.
 
 ## 📊 Results Summary
 
 | Metric | Before | After | Savings |
 |--------|--------|--------|---------|
-| **Annual Cost** | $1,463 | $170 | **$1,293 (88% reduction)** |
+| **Annual Cost** | $1,460 | $84 | **$1,376 (94% reduction)** |
 | **Monthly Dropbox** | $70 | $0 | $840/year |
 | **Quarterly Hosting** | $155 | $21 (Lightsail) | $536/year |
 | **Team Size** | 8 people | 8 people | No reduction in service |
